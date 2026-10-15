@@ -78,55 +78,44 @@
 
   <p>Approved portraits for the Fourth Wing first-year campaign.</p>
 
-  <main class="gallery" id="gallery"></main>
+  
+<main class="gallery">
+  <figure>
+    <img src="Cate%20Riorson.PNG" alt="Cate Riorson Fourth Wing RPG portrait">
+    <figcaption>Cate Riorson</figcaption>
+  </figure>
+  <figure>
+    <img src="Xaden%20Riorson.PNG" alt="Xaden Riorson Fourth Wing RPG portrait">
+    <figcaption>Xaden Riorson</figcaption>
+  </figure>
+  <figure>
+    <img src="Garrick%20Tavis.PNG" alt="Garrick Tavis Fourth Wing RPG portrait">
+    <figcaption>Garrick Tavis</figcaption>
+  </figure>
+  <figure>
+    <img src="Imogen%20Cardulo.PNG" alt="Imogen Cardulo Fourth Wing RPG portrait">
+    <figcaption>Imogen Cardulo</figcaption>
+  </figure>
+  <figure>
+    <img src="Liam%20Mairi.PNG" alt="Liam Mairi Fourth Wing RPG portrait">
+    <figcaption>Liam Mairi</figcaption>
+  </figure>
+  <figure>
+    <img src="Bodhi%20Durran.PNG" alt="Bodhi Durran Fourth Wing RPG portrait">
+    <figcaption>Bodhi Durran</figcaption>
+  </figure>
+  <figure>
+    <img src="Sloane%20Mairi.PNG" alt="Sloane Mairi Fourth Wing RPG portrait">
+    <figcaption>Sloane Mairi</figcaption>
+  </figure>
+  <figure>
+    <img src="Rhys%20Mercer.PNG" alt="Rhys Mercer Fourth Wing RPG portrait">
+    <figcaption>Rhys Mercer</figcaption>
+  </figure>
+</main>
 
-  <script>
 
-    const characters = [
 
-      "Cate Riorson",
-
-      "Xaden Riorson",
-
-      "Garrick Tavis",
-
-      "Imogen Cardulo",
-
-      "Liam Mairi",
-
-      "Bodhi Durran",
-
-      "Sloane Mairi",
-
-      "Rhys Mercer"
-
-    ];
-
-    const gallery = document.getElementById("gallery");
-
-    characters.forEach(name => {
-
-      const figure = document.createElement("figure");
-
-      const img = document.createElement("img");
-
-      const caption = document.createElement("figcaption");
-
-      img.src = encodeURIComponent(name) + ".PNG";
-
-      img.alt = name + " - Fourth Wing RPG approved character portrait";
-
-      img.loading = "lazy";
-
-      caption.textContent = name;
-
-      figure.append(img, caption);
-
-      gallery.appendChild(figure);
-
-    });
-
-  </script>
 
 </body>
 
